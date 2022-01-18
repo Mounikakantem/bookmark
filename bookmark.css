@@ -1,0 +1,88 @@
+* {
+    margin:0px;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Montserrat/static/Montserrat-Bold.tff");
+    font-weight:700;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat/static/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat/static/Montserrat-Light.ttf);
+    font-weight:300;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat/static/Montserrat-Semibold.ttf);
+    font-weight: 600;
+}
+
+.listitems {
+    top:0px;
+    border-bottom: gray 1px solid;
+    list-style: none; 
+    position: relative;  
+    padding: 11px 10px 29px 10px;
+
+   
+} 
+.quote{
+    padding:25px 3px 5px 70px; 
+    color:gray; 
+    font-size: 18px; 
+    font-weight:600; 
+    font-family: 'Montserrat',sans-serif;  
+    word-spacing: 4px;
+    font-style: italic;
+}
+.sub-title {
+    color: gray; 
+    font-size: 14px; 
+    font-family:'Montserrat',sans-serif; font-weight:300; 
+}
+
+
+.bookmark-list li::before {  
+    left:-10px; 
+    content:'';  
+    position: absolute;
+    display:inline-block; 
+    font-family: "icomoon"; content: "\e900";   
+    padding-top: 4px;
+}  
+ .heading {
+    font-family: 'Montserrat',sans-serif; 
+    font-weight:700;
+ }  
+
+.listitems--green::before {      
+    color:green;
+}  
+.listitems--yellow::before {
+    color:hsl(44, 100%, 50%);
+}  
+.listitems--blue::before {
+    color: rgb(52, 165, 235);
+}  
+
+a {
+    color:green;
+    font-size: 20px; 
+    text-decoration: none; 
+    float:right;
+    font-family:'Montserrat',sans-serif; font-weight:400;
+      
+}
+i {
+    font-size: 15px; 
+    color:green
+}   
+.double-quote {
+    font-size: 40px;
+    font-weight: 100;
+}
